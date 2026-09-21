@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Idioma y caracteres especiales para tildes y eñes -->
+    <meta charset="UTF-8">
+    
+    <!-- Adapta la pantalla para celulares y tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Texto que se ve en la pestaña del navegador -->
+    <title>Salto de linea en HTML</title>
+</head>
+
+<body>
+    <!-- Encabezado principal -->
+    <h1>Lenguaje de programacion</h1>
+    
+    <p>En la actualidad se utilizan diferentes
+        lenguajes de programacion tanto para desarrollo
+        web, desarrollo movil, entranamiento de inteligencia
+        artificial, pero de los mas usados son
+        los siguientes:<!-- Etiqueta <br> para forzar un salto de línea sin cambiar de párrafo -->:<br>
+        Dart<br>
+        Flutter<br>
+        Python<br>
+        Ruby<br>
+        Java<br>
+        TypeScript<br>
+        Entre otros.
+    </p>
+</body>
+
+</html>
