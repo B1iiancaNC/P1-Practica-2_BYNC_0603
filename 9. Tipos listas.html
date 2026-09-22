@@ -1,0 +1,110 @@
+<!-- Avisa al navegador que la página está programada en HTML5 -->
+<!DOCTYPE html>
+
+<!-- Contenedor principal del sitio web y en el idioma español -->
+<html lang="es">
+
+<!-- Configuración de la página -->
+<head>
+    <!-- Muestra bien los acentos, ñ y caracteres especiales -->
+    <meta charset="UTF-8">
+    
+    <!-- Hace que la página se adapte a todo tipo de dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título que aparece arriba en la pestaña del navegador -->
+    <title>Tipos de listas en HTML</title>
+</head>
+
+<!-- Todo lo que esté aquí dentro es lo que aparecera en la pagina web -->
+<body>
+    <!-- Título de la página -->
+    <h1>Tipos de listas</h1>
+
+    <!-- Subtítulo para la sección de listas ordenadas -->
+    <h2>Listas ordenadas</h2>
+    <p>Una lista ordenada es una serie de elementos los cuales 
+        tendran una numeracion de acuerdo al numeros de elementos.
+    </p>
+
+    <!-- <ol> crea una lista ordenada (el navegador le pone números automáticamente 1, 2, 3...) -->
+    <ol>
+        <!-- <li> representa cada renglón o elemento individual dentro de la lista -->
+        <li>Luna Arias</li>
+        <li>Franco Andrea</li>
+        <li>Granados Evelyn</li>
+    </ol>
+
+    <h2>Listas no ordenadas</h2>
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeño elemento grafico
+    </p>
+
+    <!-- <ul> crea una lista no ordenada (el navegador le pone viñetas o puntitos) -->
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+    </ul>
+
+    <h2>Lista de definiciones</h2>
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p>
+
+    <!-- <dl> crea una lista de términos y definiciones (funciona tipo diccionario o glosario) -->
+    <dl>
+        <!-- <dt> es el término o concepto que vas a definir -->
+        <dt>C++</dt>
+        <!-- <dd> es la explicación o definición de ese término (le aplica sangría automática) -->
+        <dd>
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd>
+
+        <dt>Java</dt>
+        <dd>
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd>
+
+        <dt>JavaScript</dt>
+        <dd>
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd>
+    </dl>
+
+    <h2>Listas anidadas</h2>
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p>
+
+    <!-- Lista principal numerada (<ol>) -->
+    <ol>
+        <!-- Dentro del ítem <li> de Argentina metemos otra lista con viñetas (<ul>) -->
+        <li>Argentina
+            <ul>
+                <li>Buenos aires</li>
+                <li>La plata</li>
+                <li>Mendoza</li>
+            </ul>
+        </li>
+
+        <li>España
+            <ul>
+                <li>Barcelona</li>
+                <li>Madrid</li>
+                <li>Sevilla</li>
+            </ul>
+        </li>
+
+        <li>Mexico
+            <ul>
+                <li>Chihuahua</li>
+                <li>Cd. Juarez</li>
+                <li>Hermosillo</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
